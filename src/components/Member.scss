@@ -1,0 +1,37 @@
+@import "../index.scss";
+
+.member {
+  .title {
+    h1 {
+      font-size: 22px;
+      font-weight: 700;
+    }
+  }
+
+  a {
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 40px;
+  }
+
+  .container-fluid {
+    margin: 0 50px;
+    padding: 10px;
+    background-color: #d1d9d9;
+    img {
+      background-color: grey;
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+    }
+    h6 {
+      font-size: 18px;
+      font-weight: 500;
+      margin-left: -16px;
+    }
+    p {
+      opacity: 0.5;
+      font-weight: 500;
+    }
+  }
+}

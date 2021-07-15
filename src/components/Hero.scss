@@ -1,0 +1,38 @@
+@import "../index.scss";
+
+.hero {
+  .container-fluid {
+    margin: 10px;
+    padding: 10px;
+    background-color: #d1d9d9;
+
+    img {
+      background-color: grey;
+      height: 300px;
+      width: 300px;
+    }
+
+    h2 {
+      font-size: 22px;
+      font-weight: 700;
+    }
+
+    h6 {
+      font-size: 18px;
+      font-weight: 500;
+      margin-top: 15px;
+    }
+
+    button {
+      text-align: center;
+      height: 50px;
+      width: 150px;
+      border: none;
+      background-color: grey;
+      color: #fff;
+      margin-top: 20px;
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+}

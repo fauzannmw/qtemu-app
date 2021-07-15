@@ -1,0 +1,13 @@
+@import "../index.scss";
+
+.footer {
+  text-align: center;
+
+  hr {
+    border: none;
+    width: 90%;
+    height: 2px;
+    background: black;
+    margin-bottom: 20px;
+  }
+}
