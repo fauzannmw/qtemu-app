@@ -6,7 +6,7 @@ const NextMeet = () => {
   return (
     <div className="meetup">
       <Row>
-        <Col className="title">
+        <Col>
           <h1>Next Meetup</h1>
         </Col>
       </Row>

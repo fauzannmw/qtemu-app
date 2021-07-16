@@ -4,7 +4,7 @@ import { Navbar, Nav } from "react-bootstrap";
 
 const topNav = () => {
   return (
-    <Navbar expand="lg" style={{ color: "#fff" }}>
+    <Navbar expand="lg" className="navbar-dark">
       <Navbar.Brand href="/">QTemu</Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse id="basic-navbar-nav">
